@@ -52,8 +52,17 @@ client.on('message', message => {
 			  case 16:
 				message.channel.send('sekali lagi dapet..........');
 				break;
+				case 19:
+				message.channel.send('ketuanya fiagra mana sih??');
+				break;
 			  case 20:
 				message.channel.send('hufttttt');
+				break;
+				case 21:
+				message.channel.send('hoaammmm');
+				break;
+				case 23:
+				message.channel.send('KATANYA ANAK FILM NONTON GIHHHHHHHHH');
 				break;
 			  case 25:
 				a = 0;

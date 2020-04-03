@@ -69,7 +69,7 @@ client.on('message', message => {
 message.guild.members.fetch().then(fetchedMembers => {
 	const totalOnline = fetchedMembers.filter(member => member.presence.status === 'online');
 	// We now have a collection with all online member objects in the totalOnline variable
-	message.channel.send(`Gatau deh, tapi lagi ada ${totalOnline.size} yang lagi di #sekre nih kak!`);
+	message.channel.send(`Gatau deh, tapi lagi ada ${totalOnline.size} yang lagi di sekre nih kak!`);
 		});
 	}
 });

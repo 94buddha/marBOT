@@ -2,8 +2,15 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 let a = 0;
 
+/* Emitted when the client becomes ready to start working.    */
 client.once('ready', () => {
-	console.log('Ready!');
+  console.log(`Tunggu sebentar ya kak lagi siap - siap. . .`);
+	console.log('Udah siap! Kenalin aku,');
+	console.log(client.user.tag);
+	console.log(`Bareng sama ${client.users.cache.size} orang yang online;`);
+	console.log(`Kalo nggak salah ada di ${client.channels.cache.size} channel;`);
+	console.log(`Di ${client.guilds.cache.size} server.`);
+	client.user.setActivity("Kumpulan Film JADUL terbaik");
 });
 // THIS  MUST  BE  THIS  WAY
 
@@ -73,12 +80,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-	if (message.content.includes("di sekre?")) {
+	if (message.content.includes("sini?")) {
 		// First we use guild.members.fetch to make sure all members are cached
 message.guild.members.fetch().then(fetchedMembers => {
 	const totalOnline = fetchedMembers.filter(member => member.presence.status === 'online');
 	// We now have a collection with all online member objects in the totalOnline variable
-	message.channel.send(`Gatau deh, tapi lagi ada ${totalOnline.size} yang lagi di sekre nih kak!`);
+	message.channel.send(`Gatau deh, tapi lagi ada ${totalOnline.size} yang lagi di <#${message.channel.id}> nih kak!`);
 		});
 	}
 });

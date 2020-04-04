@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let a = 0;
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
-/* Emitted when the client becomes ready to start working.    */
+client.login(process.env.BOT_TOKEN);
+
+let a = 0;
+let b = 0;
+
+
 
 client.once('ready', () => {
   console.log(`Tunggu sebentar ya kak lagi siap - siap. . .`);

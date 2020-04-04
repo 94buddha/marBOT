@@ -9,13 +9,11 @@ let b = 0;
 
 
 client.once('ready', () => {
-  console.log(`Tunggu sebentar ya kak lagi siap - siap. . .`);
-	console.log('Udah siap! Kenalin aku,');
 	console.log(client.user.tag);
 	console.log(`Bareng sama ${client.users.cache.size} orang yang online;`);
 	console.log(`Kalo nggak salah ada di ${client.channels.cache.size} channel;`);
 	console.log(`Di ${client.guilds.cache.size} server.`);
-	client.user.setActivity("Kumpulan Film JADUL terbaik");
+	client.user.setActivity('anak SATUB', { type: 'LISTENING' });
 });
 //message listener
 client.on('message', message => {
@@ -24,15 +22,11 @@ client.on('message', message => {
   } else if (message.content.includes("bot")) {
 		a = Math.floor(Math.random() * 18) + 1;  // returns a random integer from 1 to 18
     b++;
-			console.log(`a = ${a}`);
-      console.log(`b = ${b}`);
-      console.log("######");
-      if (b == 1) {
+      if (b === 1) {
         var jbss = "\n```css\nTolong jangan buang sampah sembarangan ya 👍😴\n```";
         message.channel.send(`Hehe iyaa.. hai kakak ${message.author},\nNamaku ${client.user}!
 Aku __mar__-<@&694901218304196639> <#${message.channel.id}> __**fiagra**__ yaaa.${jbss}`);
-        return;
-      } else if (1 < b < 20 ) {
+} else if ( b !== 15 ) {
         switch (a) {
   			  case 1:
   				message.channel.send('loh iya?');
@@ -77,10 +71,8 @@ Aku __mar__-<@&694901218304196639> <#${message.channel.id}> __**fiagra**__ yaaa.
   				message.channel.send('KATANYA ANAK FILM NONTON GIHHHHHHHHH');
   				break;
   				}
-      } else {
-        (b == 20);
-        (b = 0);
-      }
+      } else (b = 0);
+      console.log(`a = ${a}\nb = ${b}\n######`);
 		}
 });
 

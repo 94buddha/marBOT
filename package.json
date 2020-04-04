@@ -1,10 +1,10 @@
 {
   "name": "mar-bot",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "marBOT senang - senang sekretariat Klub Fiagra",
   "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node .sr/index.js"
   },
   "repository": {
     "type": "git",

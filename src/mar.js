@@ -4,7 +4,6 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const config = require("./config.json");
 client.config = config;
-require('dotenv').config();
 
 require('./core/mainListeners')(client);
 

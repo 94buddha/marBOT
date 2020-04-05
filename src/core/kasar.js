@@ -8,7 +8,7 @@ const kasar = {
   "mbun" : `<@490106476439011338>`,
   "meong" : "**purrrrrr**",
   "dim" : `<@421941618669649940>`,
-  "dik": `@603827599357247509>`,
+  "dick": `<@603827599357247509>`,
   "cang": `<@573140862125604864>`,
   "cup": `<@426825472329121792>`,
   "rie": `<@448626469716099073>`,
@@ -30,15 +30,15 @@ const kasar = {
   "wilo": `<@694929724589211768>`,
   "daniel": `<@588952635198013460>`,
   "riq": `<@332182517069119491>`,
-  "32": "Jar jar jar?? JAARR",
-  "33": "Ada yang kenal jibran nggaaak?",
-  "34": "Jibran mana sih?",
-  "35": "Kok jibran nggak kedengeran lagi . . .",
-  "36": "ngeeeeengg",
-  "37": "Yaudah lah yaa, yuda udah balikin botol beloom kak",
-  "38": "Dulu ada yang namanya..",
-  "39": "Marhabban yaa ramadhan",
-  "40": "Capek kak.."
+  "goblok": "bu.. bu. buah apa warnanya",
+  "bgst": "dangdut is the music of my country",
+  "gblk": "nanggung",
+  "cupu": "ucup",
+  "42": "arti kehidupan adalah",
+  "bau": "kaya orang india",
+  "dota": "adalah dolanan tai",
+  "tai": "bagian dari permainan menyenangkan ya kak",
+  "mar": "y ganteng"
 
   }
 module.exports = message => {

@@ -14,7 +14,7 @@ message.channel.send({embed: {
       },
       {
         name: "FGR-Test-Bot-01",
-        value: "Kalau mau bantu - bantu, coba dari sini juga boleh kak [masked links](https://github.com/nugroho-arie/FGR-TestBOT-01)."
+        value: "Kalau mau bantu - bantu, coba dari sini juga boleh kak [FGR-TestBOT-01](https://github.com/nugroho-arie/FGR-TestBOT-01)."
       },
       {
         name: "Pesan dari Fullhouse",

@@ -1,24 +1,32 @@
 {
-  "name": "mar-bot",
-  "version": "1.2.0",
+  "name": "mar-BOT",
+  "version": "2.0.0",
   "description": "marBOT senang - senang sekretariat Klub Fiagra",
   "main": "bot.js",
   "scripts": {
-    "start": "node .sr/index.js"
+    "start": "node ./src/mar.js",
+    "dev": "nodemon ./src/mar.js"
+  },
+  "bin": {
+    "FGR-TestBOT-01": "./src/mar.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nugroho-arie/marBOT.git"
+    "url": "git://github.com/nugroho-arie/marBot.git"
   },
-  "author": "Nugroho",
+  "author": "Arie Nugroho",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/nugroho-arie/marBOT/issues"
+    "url": "https://github.com/nugroho-arie/marBot/issues"
   },
-  "homepage": "https://github.com/nugroho-arie/marBOT#readme",
+  "homepage": "https://github.com/nugroho-arie/marBot#readme",
   "dependencies": {
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
+    "enmap": "^5.2.4",
     "snekfetch": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

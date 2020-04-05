@@ -28,4 +28,4 @@ fs.readdir("./src/commands/", (err, files) => {
     client.commands.set(commandName, props);
   });
 });
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);

@@ -39,6 +39,8 @@ const kasar = {
   "dota": "adalah dolanan tai",
   "tai": "bagian dari permainan menyenangkan ya kak",
   "mar": "y ganteng"
+  "yaudah": "y"
+  "gamau": "ih"
 
   }
 module.exports = message => {

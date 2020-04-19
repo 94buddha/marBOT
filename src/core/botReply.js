@@ -5,7 +5,7 @@ module.exports= message => {
  var jbss = "\n```css\nTolong jangan buang sampah sembarangan ya 👍😴\n```";
  if (message.content.includes(kasar(message))) { kasar(message)
  };
- if (message.content.includes("bot")) {
+ if (message.content.lower().includes("bot")) {
    a = Math.floor(Math.random() * 40) + 1;  // returns a random integer from 1 to 40
    b++;
    if (b == 1) {

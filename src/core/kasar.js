@@ -38,8 +38,8 @@ const kasar = {
   "bau": "kaya orang india",
   "dota": "adalah dolanan tai",
   "tai": "bagian dari permainan menyenangkan ya kak",
-  "mar": "y ganteng"
-  "yaudah": "y"
+  "mar": "y ganteng",
+  "yaudah": "y",
   "gamau": "ih"
 
   }

@@ -2,6 +2,7 @@ const { client } = require('../mar');
 const jawab = require('./jawab');
 const kasar = require('./kasar');
 module.exports= message => {
+ message.content = message.content.toLowerCase(message.content)
  var jbss = "\n```css\nTolong jangan buang sampah sembarangan ya 👍😴\n```";
  if (message.content.includes(kasar(message))) { kasar(message)
  };

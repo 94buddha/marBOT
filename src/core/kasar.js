@@ -40,7 +40,9 @@ const kasar = {
   "tai": "bagian dari permainan menyenangkan ya kak",
   "mar": "y ganteng",
   "yaudah": "y",
-  "gamau": "ih"
+  "gamau": "ih",
+  "digidaw": "digidawgidawdigidaw",
+  "cek_kasar.js": "module online mas"
 
   }
 module.exports = message => {

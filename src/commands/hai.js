@@ -6,7 +6,7 @@ message.channel.send({embed: {
       icon_url: client.user.avatarURL
     },
     title: "marBOT",
-    url: "http://github.com/nugroho-arie/marBOT",
+    url: "http://github.com/94buddha/marBOT",
     description: "Hai kak, kenalin aku Mar. ",
     fields: [{
         name: "versi 2.0.0",
